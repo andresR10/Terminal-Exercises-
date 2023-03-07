@@ -1,0 +1,23 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second 
+rm -rf second 
+
+
+PART 2 
+
+1. man shows the manual of the terminal command that follows it. Use enter to scroll and Q to get out.
+2. flag -l makes a long listing format. -a lists all files and folders including hidden ones
+3. ctrl + left/right arrow to jump between words.
+4. ctrl + e to get to end of line in terminal 
+5. ctrl + a to move cursor to the beginning in terminal 
+6. ctrl + w to delete word 
+7. The shell handles commands, the terminal gives a way to interact with the shell. 
+8. a specified path starting from the root directory 
+9. a move to folder/file relative to where I currently am
+10. flags are used to enhance commands using a - after command. I've used -a, ls -la, -rf
+11. rm -f ignores nonexistent files or arguments. rm -r removes directories and their contents.
